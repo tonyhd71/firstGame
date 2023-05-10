@@ -1,15 +1,29 @@
+.leftHud {
+    width: 20%;
+    background-color: black;
+    float: left;;
+}
+.rightHud {
+    background-color: black;
+    width: 20%;
+    float: right;
+}
 .grid {
     display:grid;
-    gap: 5%;
-    grid-template-columns: repeat(5, 3fr);
+    gap: 3%;
+    grid-template-columns: repeat(5, 8fr);
+    width: 50%;
 }
 .grid > div {
     padding: 10px;
     background-color: #ccc;;
 }
 .cell {
-    width:20%;
-    height: 20%;
-    margin-top: 20%;
-    margin-bottom: 20%;
+    width:10%;
+    height: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.left {
+    width: 20%;
 }
